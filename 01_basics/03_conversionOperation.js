@@ -23,6 +23,7 @@ console.log( "\n",typeof(valueInNumber))
  let E = Boolean(null)
  let F = Boolean(undefined)
 
+
 //  console.table([
 //     { Variable: "emptystring", Value: A, Type: typeof(A) },
 //     { Variable: "abc", Value: B, Type: typeof(B) },
@@ -44,8 +45,8 @@ let g = String(1)
 let h = String(undefined)
 let i = String(null)
 
-console.table[
+console.table([
     {variable:"g", value:g, type: typeof(g)},
-    {variable:"g", value:g, type: typeof(h)},
-    {variable:"g", value:g, type: typeof(i)}
-]
+    {variable:"h", value:h, type: typeof(h)},
+    {variable:"i", value:i, type: typeof(i)}
+])
