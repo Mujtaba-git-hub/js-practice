@@ -4,9 +4,10 @@
 
 console.log("data types");
 
-let name = "Mujtaba"
-let age = 18    
-let isloggedIN = false
+let name = "Mujtaba"    // string
+let age = 18            // number
+let isloggedIN = false  // boolean
+let a = null            // object
 
 // number range =>2 to power 52 or 53
 // bigint 
@@ -18,6 +19,6 @@ let isloggedIN = false
 
 // object
 
-console.table([typeof(null), typeof(undefined), typeof (name), typeof(age)])
+console.table([typeof(null), typeof(undefined), typeof (name), typeof(age), typeof(a)])
 
 // console.table([typeof(null), typeof(undefined), typeof(name), typeof(age)]);
