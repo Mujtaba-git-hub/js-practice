@@ -50,3 +50,11 @@ console.table([
     {variable:"h", value:h, type: typeof(h)},
     {variable:"i", value:i, type: typeof(i)}
 ])
+
+/* converting into string
+ 1 => "1"
+ 0 => "0"
+ null=> 
+ undefiend => "undefined"
+ null => "null"
+*/
