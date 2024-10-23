@@ -8,4 +8,10 @@ console.log(negValue)
  console.log("1" + 2 + 2)//=> 122 ,if string  first then all treat as a string
  console.log(1 + 2 + "2")//=> 32  ,if string last then first other conversion solve then string solve
  
-01
+console.log(true) // => true or 1
+console.log(+true) // => 1
+console.log(+"") // => 0
+ a=1;
+ console.log(a++);
+ console.log(++a);
+ 
