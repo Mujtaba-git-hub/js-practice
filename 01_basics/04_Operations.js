@@ -34,3 +34,5 @@ The reason is that equality check == and
  thats why null>=0 is tru and n 
 
 */
+
+/* so we use === that ensure the data type is also same*/
