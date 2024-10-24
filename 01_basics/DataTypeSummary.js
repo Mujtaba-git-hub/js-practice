@@ -61,3 +61,28 @@ const myFun = function(){
     console.log("Hi i am function",typeof(myFun)) // type: Object Function
 }
 myFun()
+
+//+++++++++++++++++++++
+/**
+ primitive dagtTypes= stack
+ NOn- primitive dagtTypes= heap and acces by refrecn
+ 
+ */
+
+ nameOne = "Mujtaba"
+ nameTwo = nameOne
+
+ nameTwo= "mujan"
+
+ console.log("Primitive: ",nameOne, nameTwo); //nameOne value not changed bcz name two had its copy
+
+let obj1 = {
+    name: "Mujtaba",
+    email:"Mujtaba@gmail.com"
+}
+
+let temp = obj1 //now temp also Object and copied Obj1 refrence so direct refrenced data as OBj1 target
+
+temp.email= "Mujan@gmail.com"; //now obj1 Email automatc changed
+ 
+console.log("Non Primitive: ",obj1.email)
