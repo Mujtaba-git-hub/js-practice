@@ -18,8 +18,8 @@ const regularUser= {
         }
     }
 }
-console.log(regularUser.fullName) // { userFullName: { firstName: 'Mujtaba', lastName: 'Noondani' } } 
-console.log(regularUser.fullName.userFullName.firstName) //=>Mujtaba
+// console.log(regularUser.fullName) // { userFullName: { firstName: 'Mujtaba', lastName: 'Noondani' } } 
+// console.log(regularUser.fullName.userFullName.firstName) //=>Mujtaba
 // for api use ? onfull name
 
 //for object combine use {...obj1, ...obj2} same as array
@@ -52,15 +52,20 @@ const users = [
     
 ]
 
-console.log(users[1].email)
-console.log(tinderUser);
-
+// console.log(users[1].email)
+// console.log(tinderUser);
+/*
 console.log(Object.keys(tinderUser)) //for accesing all keys in an array for looping etc
 console.log(Object.values(tinderUser)) //for accesing all values in an array for looping etc
 console.log(Object.entries(tinderUser)) // [ 'id', '123a' ], [ 'name', 'Mujtaba' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))// true
+* */
 
 const course= {
-    coursename: "js in hindhi"
+    courseName: "js in hindhi",
+    price: "999",
+    courseInstructor:"Mujtaba"
 }
+
+console.log(course.courseName)
