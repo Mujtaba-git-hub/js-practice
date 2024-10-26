@@ -18,6 +18,12 @@ const jsUser= {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
+/* it has keys : values
+    by default keys & value both are string but no 
+    need to denote string keys
+
+    * */
+
 // acces object use Object_name._element_name
 console.log(jsUser.email)
 console.log(jsUser["email"])
@@ -40,9 +46,4 @@ jsUser.email="def@gmail.com"
 
 console.log(jsUser.email) //value not changed
 
-
-/* it has keys : values
-    by default keys & value both are string but no 
-    need to denote string keys
-
-    * */
+//console.log(typeof mysm) => symbol
