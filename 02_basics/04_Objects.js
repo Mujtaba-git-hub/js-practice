@@ -68,4 +68,14 @@ const course= {
     courseInstructor:"Mujtaba"
 }
 
-console.log(course.courseName)
+//console.log(course.courseName) //
+ 
+// but another way ARE:
+
+// const {courseInstructor} =course
+// console.log(courseInstructor)
+
+const {courseInstructor:instructor} =course
+console.log(instructor)
+
+//  in jason api key & values both are strings ddd
